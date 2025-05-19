@@ -47,12 +47,14 @@ QA_Testing_Framework/
 ## Instalación
 
 1. Clonar el repositorio:
+
    ```bash
    git clone https://github.com/tu-usuario/QA_Testing_Framework.git
    cd QA_Testing_Framework
    ```
 
 2. Crear y activar un entorno virtual:
+
    ```bash
    python -m venv venv
    # En Windows
@@ -62,6 +64,7 @@ QA_Testing_Framework/
    ```
 
 3. Instalar dependencias:
+
    ```bash
    pip install -r requirements.txt
    ```
@@ -71,11 +74,13 @@ QA_Testing_Framework/
 ## Uso
 
 ### Ejecutar todos los tests
+
 ```bash
 pytest
 ```
 
 ### Ejecutar tests específicos
+
 ```bash
 # Ejecutar tests de frontend
 pytest Tests/Project1/Front
@@ -88,6 +93,7 @@ pytest Tests/Project1/Front/features/test_google_navigation.py
 ```
 
 ### Generar reportes
+
 ```bash
 pytest --html=report.html
 ```
@@ -100,6 +106,7 @@ pytest --html=report.html
 ## Desarrollo con Docker
 
 1. Construir la imagen:
+
    ```bash
    docker build -t qa-testing-framework .
    ```
@@ -116,7 +123,3 @@ pytest --html=report.html
 3. Commit de los cambios (`git commit -am 'Añadir nueva funcionalidad'`)
 4. Push a la rama (`git push origin feature/nueva-funcionalidad`)
 5. Crear un Pull Request
-
-## Licencia
-
-Este proyecto está licenciado bajo [incluir licencia]
