@@ -1,0 +1,17 @@
+# Dependencias principales
+pytest>=7.0.0
+pytest-bdd>=6.0.0
+selenium>=4.1.0
+webdriver-manager>=3.8.0
+
+# Dependencias para testing de APIs
+requests>=2.27.0
+jsonschema>=4.4.0
+
+# Dependencias para reporting
+pytest-html>=3.1.0
+allure-pytest>=2.9.0
+
+# Utilidades
+python-dotenv>=0.19.0
+pyyaml>=6.0
