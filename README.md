@@ -27,7 +27,7 @@ QA_Testing_Framework/
 │   └── reporting.py          # Funciones para generación de reportes
 │
 └── Tests/                    # Carpeta principal de tests
-    └── Project1/             # Tests específicos por proyecto
+    └── TestProject/             # Tests específicos por proyecto
         ├── Front/            # Tests de frontend
         │   ├── features/     # Archivos .feature (Gherkin)
         │   ├── step_defs/    # Definiciones de pasos
@@ -83,13 +83,13 @@ pytest
 
 ```bash
 # Ejecutar tests de frontend
-pytest Tests/Project1/Front
+pytest Tests/TestProject/Front
 
 # Ejecutar tests de backend
-pytest Tests/Project1/Back
+pytest Tests/TestProject/Back
 
 # Ejecutar un test específico
-pytest Tests/Project1/Front/features/test_google_navigation.py
+pytest Tests/TestProject/Front/features/test_google_navigation.py
 ```
 
 ### Generar reportes
